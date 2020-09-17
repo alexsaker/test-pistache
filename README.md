@@ -15,7 +15,7 @@ sudo make install
 ## Build & Launch server
 
 ```bash
-clang++ -o ./dist/server ./src/server.cpp  -lboost_system -lpthread
+clang++ -o ./dist/server ./src/server.cpp  -lpistache -lpthread
 ./dist/server
 ```
 
